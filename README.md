@@ -11,43 +11,43 @@
 
 This project implements a **Traffic Sign Recognition (TSR) system** using Deep Learning.
 
-It is designed as a **core module of Advanced Driver Assistance Systems (ADAS)**, enabling vehicles to interpret road signs such as speed limits, warnings, and directional indicators.
+It serves as a **core module of Advanced Driver Assistance Systems (ADAS)**, enabling vehicles to interpret road signs such as speed limits, warnings, and navigation indicators.
 
 ---
 
-## 🚗 ADAS Integration (Important)
+## 🚗 ADAS Integration
 
-This system contributes to ADAS by enabling:
+This system supports ADAS functionalities such as:
 
-- 🛑 **Speed Limit Detection** → Helps enforce safe driving speeds  
-- ⚠️ **Warning Sign Recognition** → Alerts for curves, pedestrians, hazards  
-- 🔄 **Navigation Assistance** → Detects turn signs  
-- 🔔 **Driver Alerts** → Real-time visual warnings  
-- 🤖 **Autonomous Decision Support** → Input for self-driving logic  
+- 🛑 **Speed Limit Detection** – Assists in maintaining safe speeds  
+- ⚠️ **Warning Sign Recognition** – Detects hazards and alerts drivers  
+- 🔄 **Navigation Assistance** – Identifies directional signs  
+- 🔔 **Driver Alerts** – Displays real-time predictions  
+- 🤖 **Decision Support** – Provides input for autonomous systems  
 
-> ⚠️ Note: This project currently performs **classification only**. Full ADAS requires real-time detection, tracking, and sensor fusion.
+> ⚠️ Note: This project currently performs **classification only**. Full ADAS requires detection, tracking, and sensor fusion.
 
 ---
 
 ## 🎯 Objectives
 
-- Detect and classify traffic signs
-- Support ADAS-based automation
-- Build a scalable AI model for real-world systems
+- Classify traffic signs accurately  
+- Support intelligent driving systems  
+- Build a scalable deep learning pipeline  
 
 ---
 
 ## 🧠 Dataset
 
-- **GTSRB (German Traffic Sign Recognition Benchmark)**
-- 43 traffic sign classes
-- Real-world variations (lighting, blur, angles)
+- **GTSRB (German Traffic Sign Recognition Benchmark)**  
+- 43 traffic sign classes  
+- Real-world variations (lighting, angles, occlusions)
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Python 3.9  
+- **Python 3.9**
 - TensorFlow / Keras  
 - OpenCV  
 - NumPy  
@@ -61,7 +61,7 @@ This system contributes to ADAS by enabling:
 - CNN (Convolutional Neural Network)
 - Conv2D → MaxPooling → Flatten → Dense
 - Activation: ReLU, Softmax
-- Loss: Categorical Crossentropy
+- Loss Function: Categorical Crossentropy
 
 ---
 
