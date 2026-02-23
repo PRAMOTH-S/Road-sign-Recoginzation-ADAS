@@ -1,57 +1,67 @@
-# 🚦 Traffic Sign Recognition System (AI-Based)
+# 🚦 Traffic Sign Recognition System (ADAS-Enhanced)
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
 ![OpenCV](https://img.shields.io/badge/OpenCV-ComputerVision-green)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+---
+
 ## 📌 Overview
 
-This project implements a **Traffic Sign Recognition (TSR) system** using Deep Learning techniques.  
-The model is trained to classify road signs such as speed limits, warnings, and directional signs.
+This project implements a **Traffic Sign Recognition (TSR) system** using Deep Learning.
 
-Traffic Sign Recognition is a critical component of **Advanced Driver Assistance Systems (ADAS)** used in modern autonomous and semi-autonomous vehicles.
+It is designed as a **core module of Advanced Driver Assistance Systems (ADAS)**, enabling vehicles to interpret road signs such as speed limits, warnings, and directional indicators.
+
+---
+
+## 🚗 ADAS Integration (Important)
+
+This system contributes to ADAS by enabling:
+
+- 🛑 **Speed Limit Detection** → Helps enforce safe driving speeds  
+- ⚠️ **Warning Sign Recognition** → Alerts for curves, pedestrians, hazards  
+- 🔄 **Navigation Assistance** → Detects turn signs  
+- 🔔 **Driver Alerts** → Real-time visual warnings  
+- 🤖 **Autonomous Decision Support** → Input for self-driving logic  
+
+> ⚠️ Note: This project currently performs **classification only**. Full ADAS requires real-time detection, tracking, and sensor fusion.
 
 ---
 
 ## 🎯 Objectives
 
-- Detect and classify traffic signs from images
-- Improve road safety using AI-based automation
-- Build a scalable deep learning model for real-world applications
+- Detect and classify traffic signs
+- Support ADAS-based automation
+- Build a scalable AI model for real-world systems
 
 ---
 
 ## 🧠 Dataset
 
-- **Dataset Used:** GTSRB (German Traffic Sign Recognition Benchmark)
-- Contains **43 classes** of traffic signs
-- Includes thousands of labeled images under different lighting and conditions
+- **GTSRB (German Traffic Sign Recognition Benchmark)**
+- 43 traffic sign classes
+- Real-world variations (lighting, blur, angles)
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Programming Language:** Python 3.9
-- **Libraries:**
-  - TensorFlow / Keras
-  - OpenCV
-  - NumPy
-  - Matplotlib
-  - Scikit-learn
+- Python 3.9  
+- TensorFlow / Keras  
+- OpenCV  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
 
 ---
 
 ## 🏗️ Model Architecture
 
-- Convolutional Neural Network (CNN)
-- Layers include:
-  - Conv2D
-  - MaxPooling
-  - Flatten
-  - Dense layers
-- Activation: ReLU & Softmax
-- Loss Function: Categorical Crossentropy
+- CNN (Convolutional Neural Network)
+- Conv2D → MaxPooling → Flatten → Dense
+- Activation: ReLU, Softmax
+- Loss: Categorical Crossentropy
 
 ---
 
@@ -65,21 +75,3 @@ history = model.fit(
     epochs=5, 
     validation_data=(X_test, y_test)
 )
-
----
-
-### ⚠️ Important reality check
-- Your repo link: `traffic-sign-recognition` → **Make sure this repo actually exists**, otherwise cloning will fail.
-- If not, either:
-  - Rename repo accordingly, OR
-  - Update the URL in README
-
----
-
-If you want next-level improvement, I can add:
-- 🔥 Demo GIF (very important for recruiters)
-- 📸 Output screenshots
-- ⭐ Star history badge
-- 📊 Actual accuracy results section (if you share metrics)
-
-Just tell me 👍
