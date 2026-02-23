@@ -4,7 +4,6 @@ from keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 import numpy as np
-import numpy as num
 import matplotlib.pyplot as plt
 from PIL import Image
 import os
