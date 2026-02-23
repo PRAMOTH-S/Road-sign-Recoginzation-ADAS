@@ -65,3 +65,21 @@ history = model.fit(
     epochs=5, 
     validation_data=(X_test, y_test)
 )
+
+---
+
+### ⚠️ Important reality check
+- Your repo link: `traffic-sign-recognition` → **Make sure this repo actually exists**, otherwise cloning will fail.
+- If not, either:
+  - Rename repo accordingly, OR
+  - Update the URL in README
+
+---
+
+If you want next-level improvement, I can add:
+- 🔥 Demo GIF (very important for recruiters)
+- 📸 Output screenshots
+- ⭐ Star history badge
+- 📊 Actual accuracy results section (if you share metrics)
+
+Just tell me 👍
