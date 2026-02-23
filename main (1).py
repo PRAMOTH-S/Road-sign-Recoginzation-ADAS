@@ -1,7 +1,4 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-#from tensorflow.keras.models import Sequential, load_model
-#from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
-#from tensorflow.keras.utils import to_categorical
 from keras.models import Sequential, load_model
 from keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
 from keras.utils import to_categorical
