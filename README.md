@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview
+## 📌 Overvie
 
 This project implements a **Traffic Sign Recognition (TSR) system** using Deep Learning.
 
